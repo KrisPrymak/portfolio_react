@@ -1,0 +1,314 @@
+@import url('./normalize.scss');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+$white: #e7ded4;
+$grey: #343f3e;
+$gold: #ecbe00;    
+$red: #ff2e00;
+$blue: #8bcdcd;
+
+// COMPONENTS
+
+.games {
+    overflow: hidden;
+}
+
+
+.reactList {
+    padding: 20px;
+}
+
+.header {
+    width: 10%;
+    background-color: #000;
+    &-nav {
+        &__list {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-left: 15px;
+            text-transform: uppercase;
+        }
+
+        &__item {
+                font-size: 1.3vw;
+                line-height: 35px;
+                font-weight: bold;
+                color: #fff;
+
+                a {
+                    color: #fff;
+                }
+                
+
+                &:hover {
+                    text-shadow: 0 0 2px $gold, 0 0 15px $gold;
+                    transition: .1s ease-in-out;
+                    font-size: 1.4vw;
+                }
+
+            }
+
+        &__socials {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .header-nav__item {
+                    &:not(:last-child) {
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+.landings {
+
+    &__container {
+        display: flex;
+        padding-top: 40px;
+    }
+}
+
+.itemList {
+        display: flex;
+        align-items: center;
+        font-size: 2.9vh;
+        color: #000;
+        
+        &:hover {
+            font-size: 3.3vh;
+        }
+        
+        img {
+            margin-right: 0.9rem;
+            width: 32px;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 0.5rem;
+        }
+}
+
+.list {
+    &__title {
+        font-size: 4.3vh;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    &__box {
+        padding-left: 1.5rem;
+    }
+}
+
+.landingsSlide {
+    height: 80vh;
+    border-radius: 20px;
+    margin: 10px;
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 500ms ease-in-out;
+    position: relative;
+    cursor: pointer;
+
+    &__title {
+        position: absolute;
+        font-size: 24px;
+        bottom: 10px;
+        right: 10px;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    &__link {
+        color: $white;
+        border-radius: 100% 0;
+    }
+}
+
+.active {
+    flex: 10;
+    cursor: auto;
+
+    & h3 {
+        opacity: 1;
+        transition: opacity 0.3s ease-in 0.4s;
+    }
+}
+
+
+// OLD OLD OLD OLD OLD
+
+// === common === 
+
+
+.hidden {
+    display: none;
+}
+
+// === / common === 
+
+
+.page {
+    display: flex;
+
+   
+    .main {
+        display: flex;
+        position: relative;
+
+        &-description {
+            padding-left: 1.5rem;
+            padding-top: 5vh;
+            padding-bottom: 15vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        &-round {
+            position: absolute;
+            z-index: 5;
+            top: 40%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+            width: 30%;
+        }
+
+        &-text {
+            position: absolute;
+            z-index: 5;
+            top: 40%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            h1 {
+                font-size: 2.7vw;
+            }
+            p {
+                font-size: 1.3vw;
+            }
+
+        }
+
+        &-aside {
+            width: 50%;
+            background-color: #000;
+            position: relative;
+            z-index: 1;
+            &__box {
+                &-time {
+                    color: #fff;
+                    font-size: 1.7vw;
+                    padding-top: 1.5rem;
+                    text-align: center;
+                    &__calendar {
+                        &-year, &-month, &-day {
+                            color: $gold;
+                        }
+                    }
+
+                    &__clock {
+                        &-hours, &-minutes, &-seconds {
+                            color: $gold;
+                        }
+                    }
+                }
+
+                &-img {
+                    border-radius: 20px 110px;
+                    position: absolute;
+                    top: 30%;
+                    left: 40%;
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 725px) {
+
+    .games {
+        height: 90vh;
+    }
+
+    .landingsSlide__title {
+        font-size: 10px;
+        background-color: $white;
+        border-radius: 10px;
+        padding: 5px;
+        width: 80px;
+    }
+
+    .landingsSlide__title:hover {
+        background-color: #fff;
+    }
+
+    .landingsSlide__link {
+        color: #000;
+    }
+
+
+    .active {
+        flex: 6;
+    }
+
+    .page .main-round, .page .main-text {
+        top: 25%;
+        left: 80%;
+    }
+
+    .main-aside {
+        display: none;
+    }
+        .page {
+            flex-direction: column;
+        }
+
+        .header {
+            width: 100%;
+            &-nav__list {
+                flex-direction: row;
+            }
+        }
+
+}
+
+@media (min-width: 726px) {
+
+    .games {
+        width: 100%;
+    }
+    .main {
+        width: 90%;
+        &-description {
+            width: 50%;
+        }
+    }
+    .header-nav__list {
+        height: 100vh;
+    }
+    .landings {
+        width: 88%;
+    }
+
+    .landingsSlide__link {
+        &:hover {
+            transition: .1s ease-in-out;
+            font-size: 30px;
+        }
+    }
+}

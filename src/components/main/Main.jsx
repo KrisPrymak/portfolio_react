@@ -1,0 +1,65 @@
+import React from "react";
+import { useState } from "react";
+import List from "./List";
+import selfyImg from './../../media/selfy3.png';
+import shapeImg from './../../media/shape.png';
+
+const Main = () => {
+  const [tecnologies, setTecnologies] = useState({
+          id: 1,
+          main: [
+            { id: 2, name: "HTML", src: 'https://cdn-icons-png.flaticon.com/512/5968/5968267.png' },
+            { id: 3, name: "CSS", src: 'https://cdn-icons-png.flaticon.com/512/888/888847.png' },
+            { id: 4, name: "JS", src: 'https://cdn-icons-png.flaticon.com/512/5968/5968292.png' },
+            { id: 5, name: "React, Redux", src: 'https://cdn-icons-png.flaticon.com/512/1126/1126012.png' },
+            { id: 6, name: "Sass, Less, БЭМ", src: 'https://cdn-icons-png.flaticon.com/512/919/919831.png' },
+            { id: 7, name: "Git/Jira", src: 'https://cdn-icons-png.flaticon.com/512/4926/4926625.png' },
+          ],
+          extra: [
+            {
+              id: 8,
+              name: "Уверенное знание английского и испанского",
+              src: 'https://cdn-icons-png.flaticon.com/512/3269/3269817.png',
+            },
+            {
+              id: 9,
+              name: "Любовь к животным и путешествиям",
+              src: 'https://cdn-icons-png.flaticon.com/512/761/761488.png',
+            },
+            {
+              id: 10,
+              name: "Неисправимый оптимизм",
+              src: 'https://cdn-icons-png.flaticon.com/512/6807/6807885.png',
+            },
+          ],
+        },
+  );
+
+  return (
+    <main className="main">
+      <div className="main-description">
+        <List arrayList={tecnologies.main} listTitle="Стек технологий:" />
+        <List arrayList={tecnologies.extra} listTitle="А также:" />
+      </div>
+
+      <img src={shapeImg} alt="round" className="main-round" />
+
+      <div className="main-text">
+        <h1 className="main-text__name">Кристина Приймак</h1>
+        <p className="main-text__place">Frontend-разработчик</p>
+      </div>
+
+      <div className="main-aside">
+        <div className="main-aside__box">
+          <img
+            src={selfyImg}
+            alt="selfy"
+            className="main-aside__box-img"
+          />
+        </div>
+      </div>
+    </main>
+  );
+};
+
+export default Main;
