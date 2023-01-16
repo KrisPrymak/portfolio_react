@@ -9,22 +9,22 @@ const Navbar = () => {
         <ul className="header-nav__list">
           <li>
             <NavLink to="/" className="header-nav__item">
-              Главная
+              Main
             </NavLink>
           </li>
           <li>
             <NavLink to="/reactProjects" className="header-nav__item">
-            React Projects
+            React projects
             </NavLink>
           </li>
           <li>
             <NavLink to="/landings" className="header-nav__item">
-              Лендинги
+              Layouts
             </NavLink>
           </li>
           <li>
             <NavLink to="/games" className="header-nav__item">
-              JS-игры
+              JS games
             </NavLink>
           </li>
           <li>
@@ -40,7 +40,7 @@ const Navbar = () => {
               className="header-nav__item"
               href="https://drive.google.com/file/d/1Gb6fp8Vo1mdCUoriArVn5AM3Sj3XAAxQ/view?usp=sharing"
             >
-              Резюме
+              CV
             </a>
           </li>
           <li>

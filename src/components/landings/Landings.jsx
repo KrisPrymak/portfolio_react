@@ -20,7 +20,7 @@ const Landings = () => {
             {landings.map(l => {
                 return (
                     <div className={l.isActive ? 'landingsSlide active' : 'landingsSlide'} style={{backgroundImage: `url(${l.srcImg})`}} onClick={() => {changeSlide(l.id)}}>
-                    <Slide key={l.id} style={l.style} link={l.link} text='Перейти на страницу' divClass='landingsSlide' h3Class='landingsSlide__title' aClass='landingsSlide__link'/>
+                    <Slide key={l.id} style={l.style} link={l.link} text='Go to page' divClass='landingsSlide' h3Class='landingsSlide__title' aClass='landingsSlide__link'/>
                     </div>
                 )
             })}

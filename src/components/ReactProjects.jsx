@@ -5,7 +5,7 @@ import todo from './../media/todo.jpg';
 import kanban from './../media/kanban.jpg';
 
 const ReactProjects = () => {
-    const [projects, setProjects] = useState([
+    const [projects] = useState([
         {id: 11, name: 'Kanban board', link: 'https://krisprymak.github.io/kanban_react/', src: {kanban}},
         {id: 12, name: 'Todo list', link: 'https://krisprymak.github.io/todo_list/', src: {todo}},
         {id: 13, name: 'Social network', link: 'https://github.com/KrisPrymak/forest_network/', src: {socialNetwork}},
