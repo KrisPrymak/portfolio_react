@@ -38,7 +38,7 @@ const Navbar = () => {
           <li>
             <a
               className="header-nav__item"
-              href="https://drive.google.com/file/d/1Gb6fp8Vo1mdCUoriArVn5AM3Sj3XAAxQ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1mXNcpK2PQ314ljt3VP9MVHL1_oPNQAE9/view?usp=sharing"
             >
               CV
             </a>
