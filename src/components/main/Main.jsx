@@ -12,9 +12,11 @@ const Main = () => {
             { id: 3, name: "CSS", src: 'https://cdn-icons-png.flaticon.com/512/888/888847.png' },
             { id: 4, name: "JS", src: 'https://cdn-icons-png.flaticon.com/512/5968/5968292.png' },
             { id: 33, name: "TS", src: 'https://cdn-icons-png.flaticon.com/512/5968/5968381.png' },
-            { id: 5, name: "React, Redux", src: 'https://cdn-icons-png.flaticon.com/512/1126/1126012.png' },
+            { id: 5, name: "React", src: 'https://cdn-icons-png.flaticon.com/512/1126/1126012.png' },
+            { id: 34, name: "Redux, Redux Toolkit", src: 'https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg' },
             { id: 6, name: "Sass, Less, БЭМ", src: 'https://cdn-icons-png.flaticon.com/512/919/919831.png' },
-            { id: 7, name: "Git/Jira", src: 'https://cdn-icons-png.flaticon.com/512/4926/4926625.png' },
+            { id: 35, name: "Material-UI", src: 'https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png' },
+            { id: 7, name: "Git, Jira, YouTrack, Scrum", src: 'https://cdn-icons-png.flaticon.com/512/4926/4926625.png' },
           ],
           extra: [
             {
