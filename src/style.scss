@@ -34,6 +34,7 @@ $blue: #8bcdcd;
             flex-direction: column;
             justify-content: space-around;
             padding-left: 15px;
+            padding-right: 30px;
             text-transform: uppercase;
         }
 
@@ -237,6 +238,45 @@ $blue: #8bcdcd;
             }
         }
     }
+}
+
+
+// projects
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects__item {
+    margin: 30px;
+    width: 45%;
+}
+
+.projects__stack {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.projects__img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects__img-container {
+    width: 450px;
+}
+
+.projects__icon {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.projects__link:not(:last-child) {
+    margin-right: 10px;
 }
 
 @media (max-width: 725px) {

@@ -2,9 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Main from "./components/main/Main";
-import ReactProjects from "./components/ReactProjects";
-import Landings from "./components/landings/Landings";
-import Games from "./components/Games";
+import Projects from "./components/main/Projects";
 
 function App() {
   return (
@@ -13,9 +11,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/reactProjects" element={<ReactProjects />} />
-        <Route path="/landings" element={<Landings />} />
-        <Route path="/games" element={<Games />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </div>
   );

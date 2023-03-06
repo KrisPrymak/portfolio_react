@@ -13,18 +13,8 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/reactProjects" className="header-nav__item">
-            React projects
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/landings" className="header-nav__item">
-              Layouts
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/games" className="header-nav__item">
-              JS games
+            <NavLink to="/projects" className="header-nav__item">
+            Projects
             </NavLink>
           </li>
           <li>
