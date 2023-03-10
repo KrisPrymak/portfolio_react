@@ -9,6 +9,7 @@ import beautyImg from './../../media/beauty.png';
 import lkImg from './../../media/lk.png';
 import networkImg from './../../media/social.png';
 import gamesImg from './../../media/gamesImg.png';
+import hackerImg from './../../media/hacker.png';
 
 const Projects = () => {
   const icons = {
@@ -32,6 +33,14 @@ const Projects = () => {
       codeLink: "https://github.com/KrisPrymak/kanban_react",
       pageLink: "https://krisprymak.github.io/kanban_react/",
       stack: [icons.scss, icons.react, icons.redux, icons.js],
+    },
+    {
+      id: (Math.random() * new Date()).toFixed(),
+      title: "Hacker news",
+      img: hackerImg,
+      codeLink: "https://github.com/KrisPrymak/hacker_news_ts",
+      pageLink: "https://krisprymak.github.io/hacker_news_ts/",
+      stack: [icons.react, icons.redux, icons.ts, icons.mui, icons.css],
     },
     {
       id: (Math.random() * new Date()).toFixed(),
