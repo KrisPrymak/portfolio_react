@@ -10,6 +10,7 @@ import lkImg from './../../media/lk.png';
 import networkImg from './../../media/social.png';
 import gamesImg from './../../media/gamesImg.png';
 import hackerImg from './../../media/hacker.png';
+import ghSearchImg from './../../media/githubSearch.png';
 
 const Projects = () => {
   const icons = {
@@ -44,6 +45,22 @@ const Projects = () => {
     },
     {
       id: (Math.random() * new Date()).toFixed(),
+      title: "Comment form",
+      img: 'https://github.com/KrisPrymak/form_comment_js/raw/main/media.png',
+      codeLink: "https://github.com/KrisPrymak/form_comment_js",
+      pageLink: "https://krisprymak.github.io/form_comment_js/",
+      stack: [icons.html, icons.css, icons.js],
+    },
+    {
+      id: (Math.random() * new Date()).toFixed(),
+      title: "Github search",
+      img: ghSearchImg,
+      codeLink: "https://github.com/KrisPrymak/github_seacrh",
+      pageLink: "https://krisprymak.github.io/github_seacrh/",
+      stack: [icons.html, icons.css, icons.js],
+    },
+    {
+      id: (Math.random() * new Date()).toFixed(),
       title: "Games (canvas/js)",
       img: gamesImg,
       codeLink: "https://github.com/KrisPrymak/slider_js",
@@ -60,19 +77,19 @@ const Projects = () => {
     },
     {
         id: (Math.random() * new Date()).toFixed(),
-        title: "Cat shop block",
-        img: catImg,
-        codeLink: "https://github.com/KrisPrymak/cat_shop_react_ts",
-        pageLink: "https://krisprymak.github.io/kanban_react/",
-        stack: [icons.react, icons.scss, icons.ts],
-      },
-    {
-        id: (Math.random() * new Date()).toFixed(),
         title: "Blog Noemi",
         img: noemiImg,
         codeLink: "https://github.com/KrisPrymak/Noemi",
         pageLink: "https://krisprymak.github.io/Noemi/",
         stack: [icons.html, icons.css],
+      },
+      {
+        id: (Math.random() * new Date()).toFixed(),
+        title: "Cat shop block",
+        img: catImg,
+        codeLink: "https://github.com/KrisPrymak/cat_shop_react_ts",
+        pageLink: "https://krisprymak.github.io/kanban_react/",
+        stack: [icons.react, icons.scss, icons.ts],
       },
       {
         id: (Math.random() * new Date()).toFixed(),
