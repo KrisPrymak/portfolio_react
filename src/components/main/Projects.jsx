@@ -11,6 +11,7 @@ import networkImg from './../../media/social.png';
 import gamesImg from './../../media/gamesImg.png';
 import hackerImg from './../../media/hacker.png';
 import ghSearchImg from './../../media/githubSearch.png';
+import sultanImg from './../../media/sultan.png';
 
 const Projects = () => {
   const icons = {
@@ -34,6 +35,14 @@ const Projects = () => {
       codeLink: "https://github.com/KrisPrymak/kanban_react",
       pageLink: "https://krisprymak.github.io/kanban_react/",
       stack: [icons.scss, icons.react, icons.redux, icons.js],
+    },
+    {
+      id: (Math.random() * new Date()).toFixed(),
+      title: "Shop market",
+      img: sultanImg,
+      codeLink: "https://github.com/KrisPrymak/sul_ts_rt",
+      pageLink: "https://krisprymak.github.io/sul_ts_rt/",
+      stack: [icons.css, icons.react, icons.redux, icons.ts],
     },
     {
       id: (Math.random() * new Date()).toFixed(),

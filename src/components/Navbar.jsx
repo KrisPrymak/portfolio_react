@@ -21,6 +21,7 @@ const Navbar = () => {
             <a
               className="header-nav__item"
               href="https://github.com/KrisPrymak"
+              target="_blank" rel="noreferrer"
             >
               GitHub
             </a>
@@ -28,20 +29,21 @@ const Navbar = () => {
           <li>
             <a
               className="header-nav__item"
-              href="https://drive.google.com/file/d/1LugR1sNX2Nj28utTnvEsH5PsXJFSiAD7/view?usp=sharing">
+              target="_blank" rel="noreferrer"
+              href="https://drive.google.com/file/d/1TllDZlMYCShC2KIS_rGcXXzdyMn9edlb/view?usp=sharing">
               CV
             </a>
           </li>
           <li>
             <ul className="header-nav__socials">
               <li className="header-nav__item">
-                <a href="https://vk.com/bahnempopivku">VK</a>
+                <a href="https://vk.com/bahnempopivku" target="_blank" rel="noreferrer">VK</a>
               </li>
               <li className="header-nav__item">
-                <a href="https://t.me/krispriimak">TG</a>
+                <a href="https://t.me/krispriimak" target="_blank" rel="noreferrer">TG</a>
               </li>
               <li className="header-nav__item">
-                <a href="https://career.habr.com/krispriimak">HABR</a>
+                <a href="https://career.habr.com/krispriimak" target="_blank" rel="noreferrer">HABR</a>
               </li>
             </ul>
           </li>

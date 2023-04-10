@@ -16,6 +16,7 @@ const Main = () => {
             { id: 34, name: "Redux, Redux Toolkit", src: 'https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg' },
             { id: 6, name: "Sass, Less, БЭМ", src: 'https://cdn-icons-png.flaticon.com/512/919/919831.png' },
             { id: 35, name: "Material-UI", src: 'https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png' },
+            { id: 9089, name: "Ant Design", src: 'https://static-00.iconduck.com/assets.00/ant-design-icon-512x512-ncocfg8e.png' },
             { id: 7, name: "Git, Jira, YouTrack, Scrum", src: 'https://cdn-icons-png.flaticon.com/512/4926/4926625.png' },
           ],
           extra: [
