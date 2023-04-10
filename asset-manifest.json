@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.81a8137a.css",
-    "main.js": "/portfolio_react/static/js/main.cbe58100.js",
+    "main.js": "/portfolio_react/static/js/main.3644305f.js",
     "static/media/selfy3.png": "/portfolio_react/static/media/selfy3.0012093b93da510ef4dc.png",
     "static/media/repair.png": "/portfolio_react/static/media/repair.f6afe7c16f496401d889.png",
     "static/media/cats.png": "/portfolio_react/static/media/cats.ad2bd6b04e9e7f34ff22.png",
     "static/media/noemi.png": "/portfolio_react/static/media/noemi.2d1419ca96fc64a4413a.png",
+    "static/media/sultan.png": "/portfolio_react/static/media/sultan.3c3a39e62aa1bbea0643.png",
     "static/media/gamesImg.png": "/portfolio_react/static/media/gamesImg.3ac919abf2cbb7652569.png",
     "static/media/hacker.png": "/portfolio_react/static/media/hacker.33dfe25da1c22c2fa83d.png",
     "static/media/lk.png": "/portfolio_react/static/media/lk.89dd3ec29e0b507bd126.png",
@@ -17,10 +18,10 @@
     "static/media/shape.png": "/portfolio_react/static/media/shape.0091e676a35701aff57c.png",
     "index.html": "/portfolio_react/index.html",
     "main.81a8137a.css.map": "/portfolio_react/static/css/main.81a8137a.css.map",
-    "main.cbe58100.js.map": "/portfolio_react/static/js/main.cbe58100.js.map"
+    "main.3644305f.js.map": "/portfolio_react/static/js/main.3644305f.js.map"
   },
   "entrypoints": [
     "static/css/main.81a8137a.css",
-    "static/js/main.cbe58100.js"
+    "static/js/main.3644305f.js"
   ]
 }
