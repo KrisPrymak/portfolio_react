@@ -30,7 +30,7 @@ const Navbar = () => {
             <a
               className="header-nav__item"
               target="_blank" rel="noreferrer"
-              href="https://drive.google.com/file/d/1TllDZlMYCShC2KIS_rGcXXzdyMn9edlb/view?usp=sharing">
+              href="https://drive.google.com/file/d/18PTPA6554CHpRmfffuOt9ytSvH0ZegC0/view?usp=sharing">
               CV
             </a>
           </li>

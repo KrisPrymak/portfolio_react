@@ -80,8 +80,8 @@ const Projects = () => {
       id: (Math.random() * new Date()).toFixed(),
       title: "Личный кабинет",
       img: lkImg,
-      codeLink: "https://github.com/KrisPrymak/lk_work",
-      pageLink: "https://krisprymak.github.io/lk_work/",
+      codeLink: "https://github.com/KrisPrymak/onko_med",
+      pageLink: "https://krisprymak.github.io/onko_med/",
       stack: [icons.react, icons.redux, icons.js],
     },
     {
