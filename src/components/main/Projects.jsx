@@ -46,6 +46,14 @@ const Projects = () => {
     },
     {
       id: (Math.random() * new Date()).toFixed(),
+      title: "VR layout",
+      img: sultanImg,
+      codeLink: "https://github.com/KrisPrymak/vr_layout",
+      pageLink: "https://krisprymak.github.io/vr_layout/",
+      stack: [icons.html, icons.css],
+    },
+    {
+      id: (Math.random() * new Date()).toFixed(),
       title: "Hacker news",
       img: hackerImg,
       codeLink: "https://github.com/KrisPrymak/hacker_news_ts",
