@@ -12,6 +12,7 @@ import gamesImg from './../../media/gamesImg.png';
 import hackerImg from './../../media/hacker.png';
 import ghSearchImg from './../../media/githubSearch.png';
 import sultanImg from './../../media/sultan.png';
+import vrImg from './../../media/vrImg.png';
 
 const Projects = () => {
   const icons = {
@@ -47,7 +48,7 @@ const Projects = () => {
     {
       id: (Math.random() * new Date()).toFixed(),
       title: "VR layout",
-      img: sultanImg,
+      img: vrImg,
       codeLink: "https://github.com/KrisPrymak/vr_layout",
       pageLink: "https://krisprymak.github.io/vr_layout/",
       stack: [icons.html, icons.css],
